@@ -1,4 +1,0 @@
-00:18:24.408 WARN  [File:TestController.java] [Func:getAll] [Line:35] [Message:Warn Level 테스트]- Warn Level 테스트
-00:18:24.414 ERROR [File:TestController.java] [Func:getAll] [Line:38] [Message:ERROR Level 테스트]- ERROR Level 테스트
-00:18:28.607 WARN  [File:PlaylistController.java] [Func:getAll] [Line:65] [Message:Warn Level 테스트]- Warn Level 테스트
-00:18:28.608 ERROR [File:PlaylistController.java] [Func:getAll] [Line:68] [Message:ERROR Level 테스트]- ERROR Level 테스트
