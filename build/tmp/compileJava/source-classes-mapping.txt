@@ -1,44 +1,146 @@
-com/example/demo/src/user/model/PostLoginReq.java
- com.example.demo.src.user.model.PostLoginReq
-com/example/demo/src/user/model/PostUserReq.java
- com.example.demo.src.user.model.PostUserReq
-com/example/demo/config/Constant.java
- com.example.demo.config.Constant
-com/example/demo/config/secret/Secret.java
- com.example.demo.config.secret.Secret
-com/example/demo/src/user/model/PostUserRes.java
- com.example.demo.src.user.model.PostUserRes
-com/example/demo/src/user/UserController.java
- com.example.demo.src.user.UserController
-com/example/demo/utils/ValidationRegex.java
- com.example.demo.utils.ValidationRegex
-com/example/demo/config/BaseResponse.java
- com.example.demo.config.BaseResponse
-com/example/demo/src/user/model/PostLoginRes.java
- com.example.demo.src.user.model.PostLoginRes
-com/example/demo/src/user/model/User.java
- com.example.demo.src.user.model.User
-com/example/demo/src/user/UserDao.java
- com.example.demo.src.user.UserDao
-com/example/demo/src/user/UserService.java
- com.example.demo.src.user.UserService
-com/example/demo/utils/AES128.java
- com.example.demo.utils.AES128
-com/example/demo/config/BaseResponseStatus.java
- com.example.demo.config.BaseResponseStatus
-com/example/demo/src/user/model/PatchUserReq.java
- com.example.demo.src.user.model.PatchUserReq
-com/example/demo/src/user/model/GetUserRes.java
- com.example.demo.src.user.model.GetUserRes
-com/example/demo/config/BaseException.java
- com.example.demo.config.BaseException
-com/example/demo/DemoApplication.java
- com.example.demo.DemoApplication
-com/example/demo/src/WebSecurityConfig.java
- com.example.demo.src.WebSecurityConfig
-com/example/demo/utils/JwtService.java
- com.example.demo.utils.JwtService
-com/example/demo/src/test/TestController.java
- com.example.demo.src.test.TestController
-com/example/demo/src/user/UserProvider.java
- com.example.demo.src.user.UserProvider
+shop/chana123/src/subscribe/SubscribeDao.java
+ shop.chana123.src.subscribe.SubscribeDao
+shop/chana123/src/video/model/PostVideoRes.java
+ shop.chana123.src.video.model.PostVideoRes
+shop/chana123/utils/ValidationRegex.java
+ shop.chana123.utils.ValidationRegex
+shop/chana123/src/subscribe/model/PostSubscribeReq.java
+ shop.chana123.src.subscribe.model.PostSubscribeReq
+shop/chana123/src/test/TestController.java
+ shop.chana123.src.test.TestController
+shop/chana123/src/video/model/GetVideosDetailRes.java
+ shop.chana123.src.video.model.GetVideosDetailRes
+shop/chana123/src/video/model/PatchVideosEvaReq.java
+ shop.chana123.src.video.model.PatchVideosEvaReq
+shop/chana123/DemoApplication.java
+ shop.chana123.DemoApplication
+shop/chana123/src/playlist/model/GetPlaylistDetailRes.java
+ shop.chana123.src.playlist.model.GetPlaylistDetailRes
+shop/chana123/src/comment/model/PostCommentsEvaRes.java
+ shop.chana123.src.comment.model.PostCommentsEvaRes
+shop/chana123/src/reference/model/User.java
+ shop.chana123.src.reference.model.User
+shop/chana123/src/reference/RefController.java
+ shop.chana123.src.reference.RefController
+shop/chana123/src/playlist/model/PostPlaylistHaveRes.java
+ shop.chana123.src.playlist.model.PostPlaylistHaveRes
+shop/chana123/src/subscribe/SubscribeService.java
+ shop.chana123.src.subscribe.SubscribeService
+shop/chana123/src/user/UserDao.java
+ shop.chana123.src.user.UserDao
+shop/chana123/src/user/UserController.java
+ shop.chana123.src.user.UserController
+shop/chana123/src/subscribe/model/PatchSubscribeReq.java
+ shop.chana123.src.subscribe.model.PatchSubscribeReq
+shop/chana123/config/secret/Secret.java
+ shop.chana123.config.secret.Secret
+shop/chana123/utils/JwtService.java
+ shop.chana123.utils.JwtService
+shop/chana123/config/BaseResponse.java
+ shop.chana123.config.BaseResponse
+shop/chana123/src/comment/model/GetCommentsCommentlistRes.java
+ shop.chana123.src.comment.model.GetCommentsCommentlistRes
+shop/chana123/src/playlist/model/PostPlaylistVideoReq.java
+ shop.chana123.src.playlist.model.PostPlaylistVideoReq
+shop/chana123/src/reference/model/GetUserRes.java
+ shop.chana123.src.reference.model.GetUserRes
+shop/chana123/src/user/model/PostSignupRes.java
+ shop.chana123.src.user.model.PostSignupRes
+shop/chana123/src/reference/model/PostUserRes.java
+ shop.chana123.src.reference.model.PostUserRes
+shop/chana123/src/user/model/GetUserRes.java
+ shop.chana123.src.user.model.GetUserRes
+shop/chana123/config/BaseResponseStatus.java
+ shop.chana123.config.BaseResponseStatus
+shop/chana123/src/subscribe/model/PostSubscribeRes.java
+ shop.chana123.src.subscribe.model.PostSubscribeRes
+shop/chana123/src/subscribe/SubscribeController.java
+ shop.chana123.src.subscribe.SubscribeController
+shop/chana123/src/subscribe/model/PatchSubscribeRes.java
+ shop.chana123.src.subscribe.model.PatchSubscribeRes
+shop/chana123/src/playlist/PlaylistService.java
+ shop.chana123.src.playlist.PlaylistService
+shop/chana123/src/playlist/PlaylistProvider.java
+ shop.chana123.src.playlist.PlaylistProvider
+shop/chana123/src/video/model/PostVideoReq.java
+ shop.chana123.src.video.model.PostVideoReq
+shop/chana123/src/reference/model/PostLoginRes.java
+ shop.chana123.src.reference.model.PostLoginRes
+shop/chana123/src/video/model/PostVideosEvaReq.java
+ shop.chana123.src.video.model.PostVideosEvaReq
+shop/chana123/src/reference/RefDao.java
+ shop.chana123.src.reference.RefDao
+shop/chana123/utils/AES128.java
+ shop.chana123.utils.AES128
+shop/chana123/src/comment/model/PostCommentsRes.java
+ shop.chana123.src.comment.model.PostCommentsRes
+shop/chana123/src/user/UserService.java
+ shop.chana123.src.user.UserService
+shop/chana123/config/Constant.java
+ shop.chana123.config.Constant
+shop/chana123/src/playlist/model/PostPlaylistReq.java
+ shop.chana123.src.playlist.model.PostPlaylistReq
+shop/chana123/src/video/VideoService.java
+ shop.chana123.src.video.VideoService
+shop/chana123/src/playlist/model/PostPlaylistVideoRes.java
+ shop.chana123.src.playlist.model.PostPlaylistVideoRes
+shop/chana123/src/comment/CommentController.java
+ shop.chana123.src.comment.CommentController
+shop/chana123/src/video/VideoController.java
+ shop.chana123.src.video.VideoController
+shop/chana123/src/playlist/model/GetPlaylistHaveRes.java
+ shop.chana123.src.playlist.model.GetPlaylistHaveRes
+shop/chana123/src/video/VideoDao.java
+ shop.chana123.src.video.VideoDao
+shop/chana123/src/reference/RefService.java
+ shop.chana123.src.reference.RefService
+shop/chana123/config/BaseException.java
+ shop.chana123.config.BaseException
+shop/chana123/src/video/model/PatchVideosEvaRes.java
+ shop.chana123.src.video.model.PatchVideosEvaRes
+shop/chana123/src/WebSecurityConfig.java
+ shop.chana123.src.WebSecurityConfig
+shop/chana123/src/user/model/PostSignupReq.java
+ shop.chana123.src.user.model.PostSignupReq
+shop/chana123/src/comment/CommentProvider.java
+ shop.chana123.src.comment.CommentProvider
+shop/chana123/src/reference/model/PatchUserReq.java
+ shop.chana123.src.reference.model.PatchUserReq
+shop/chana123/src/subscribe/model/GetSubscribeListRes.java
+ shop.chana123.src.subscribe.model.GetSubscribeListRes
+shop/chana123/src/playlist/model/PostPlaylistHaveReq.java
+ shop.chana123.src.playlist.model.PostPlaylistHaveReq
+shop/chana123/src/reference/RefProvider.java
+ shop.chana123.src.reference.RefProvider
+shop/chana123/src/video/VideoProvider.java
+ shop.chana123.src.video.VideoProvider
+shop/chana123/src/comment/model/PostCommentsReq.java
+ shop.chana123.src.comment.model.PostCommentsReq
+shop/chana123/src/playlist/PlaylistController.java
+ shop.chana123.src.playlist.PlaylistController
+shop/chana123/src/user/UserProvider.java
+ shop.chana123.src.user.UserProvider
+shop/chana123/src/subscribe/SubscribeProvider.java
+ shop.chana123.src.subscribe.SubscribeProvider
+shop/chana123/src/video/model/PostVideosEvaRes.java
+ shop.chana123.src.video.model.PostVideosEvaRes
+shop/chana123/src/comment/model/PostCommentsEvaReq.java
+ shop.chana123.src.comment.model.PostCommentsEvaReq
+shop/chana123/src/comment/model/GetCommentsRecommentlistRes.java
+ shop.chana123.src.comment.model.GetCommentsRecommentlistRes
+shop/chana123/src/playlist/model/GetPlaylistElem.java
+ shop.chana123.src.playlist.model.GetPlaylistElem
+shop/chana123/src/reference/model/PostLoginReq.java
+ shop.chana123.src.reference.model.PostLoginReq
+shop/chana123/src/comment/CommentDao.java
+ shop.chana123.src.comment.CommentDao
+shop/chana123/src/comment/CommentService.java
+ shop.chana123.src.comment.CommentService
+shop/chana123/src/reference/model/PostUserReq.java
+ shop.chana123.src.reference.model.PostUserReq
+shop/chana123/src/video/model/GetVideosListRes.java
+ shop.chana123.src.video.model.GetVideosListRes
+shop/chana123/src/playlist/PlaylistDao.java
+ shop.chana123.src.playlist.PlaylistDao
+shop/chana123/src/playlist/model/PostPlaylistRes.java
+ shop.chana123.src.playlist.model.PostPlaylistRes
